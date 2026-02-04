@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>voLk conversor</title>
+</head>
+
+<body>
+
+    <main class="app">
+
+        <img src="./assets/logo.png" class="logo">
+
+        <div class="form">
+
+            <label>
+                Converter de
+                <select id="selectFrom">
+                    <option value="BRL">R$ Real Brasileiro</option>
+                    <option value="USD">US$ Dólar Americano</option>
+                    <option value="EUR">€ Euro</option>
+                    <option value="BTC">₿ Bitcoin</option>
+                </select>
+            </label>
+
+            <label>
+                Converter para
+                <select id="selectTo">
+                    <option value="USD">US$ Dólar Americano</option>
+                    <option value="BRL">R$ Real Brasileiro</option>
+                    <option value="EUR">€ Euro</option>
+                    <option value="BTC">₿ Bitcoin</option>
+                </select>
+            </label>
+
+            <label>
+                Valor
+                <input id="inputValue" type="number" placeholder="0,00" />
+            </label>
+
+            <button id="btnConverter">Converter</button>
+
+        </div>
+
+
+        <section class="resultado">
+
+            <div class="box-moeda">
+                <img id="imgFrom" class="flag" src="./assets/brasil 2.png">
+                <p class="moeda" id="nomeFrom">Real</p>
+                <p class="valor" id="valorFrom">R$ 0.00</p>
+            </div>
+
+            <img class="seta" src="./assets/seta.png">
+
+            <div class="box-moeda">
+                <img id="imgTo" class="flag" src="./assets/dolar.png">
+                <p class="moeda" id="nomeTo">Dólar</p>
+                <p class="valor" id="valorTo">US$ 0.00</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
