@@ -21,7 +21,7 @@ const imagens = {
     BRL: "./assets/brasil 2.png",
     USD: "./assets/dolar.png",
     EUR: "./assets/euro.png",
-    BTC: "./assets/bitcoin.png"
+    BTC: "./assets/bitcoin 1.png"
 }
 
 const nomes = {
