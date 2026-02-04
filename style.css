@@ -29,16 +29,23 @@ body {
 
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 10px;
 
     box-shadow: 0 25px 60px rgba(0, 0, 0, 0.55);
 }
 
 
 .logo {
-    width: 350px;
-    margin: -20px auto -20px auto;
+    width: 58%;
+    max-width: 200px;
+
+    margin: 6px auto 16px;
+    display: block;
+
+    filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.45));
 }
+
+
 
 
 .form {
